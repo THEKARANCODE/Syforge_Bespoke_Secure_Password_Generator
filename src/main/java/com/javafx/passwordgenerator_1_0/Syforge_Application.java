@@ -15,13 +15,12 @@ public class Syforge_Application extends Application {
         Image icon = new Image(getClass().getResourceAsStream("/com/javafx/passwordgenerator_1_0/padlock.png"));
         FXMLLoader fxmlLoader = new FXMLLoader(Syforge_Application.class.getResource("UI.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Syforge: Your Bespoke Password Artisan. - PRODUCTION");
+        stage.setTitle("Syforge: Your Bespoke Password Artisan.");
         stage.setScene(scene);
         stage.getIcons().add(icon);
         stage.show();
         /*MASTER BRANCH*/
     }
-
     public static void main(String[] args) {
         launch();
     }
